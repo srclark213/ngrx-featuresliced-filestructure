@@ -1,6 +1,7 @@
 {
   "rulesDirectory": [
-    "node_modules/codelyzer"
+    "node_modules/codelyzer",
+    "node_modules/tslint-eslint-rules/dist/rules"
   ],
   "rules": {
     "arrow-return-shorthand": true,
@@ -23,8 +24,10 @@
     "import-spacing": true,
     "indent": [
       true,
-      "spaces"
+      "spaces",
+      4
     ],
+    "ter-indent": [true, 4],
     "interface-over-type-literal": true,
     "label-position": true,
     "max-line-length": [
